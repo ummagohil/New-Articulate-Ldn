@@ -43,6 +43,9 @@ module.exports = {
           families: ["KeplerStd-BlackScnDisp"],
           urls: ["/fonts/fonts.css"],
         },
+        google: {
+          families: ["Poppins"],
+        },
       },
     },
   ],
