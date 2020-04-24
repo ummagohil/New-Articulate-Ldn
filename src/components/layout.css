@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 html {
-  font-family: sans-serif;
+  @font-face {
+    font-family: "KeplerStd-BlackScnDisp, Kepler Std";
+  }
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
