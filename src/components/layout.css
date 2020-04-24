@@ -11,6 +11,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #d3f4e1;
+  @font-face {
+    font-family: "KeplerStd-BlackScnDisp, Kepler Std";
+  }
 }
 article,
 aside,
