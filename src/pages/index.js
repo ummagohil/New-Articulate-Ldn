@@ -32,6 +32,18 @@ const StyledBackground = styled(Background)`
   left: 50%;
   position: absolute;
   max-height: 100%;
+  @font-face {
+    font-family: 'KeplerStd-BlackScnDisp, Kepler Std';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KeplerStd-BlackScnDisp, Kepler Std'), url('${fonts.KeplerStdBlack}') format('opentype');
+  }
+  @font-face {
+      font-family: "Poppins-Light, Poppins";
+      font-style: normal;
+      font-weight: normal;
+      src: local("Poppins-Light, Poppins"), url('${fonts.PoppinsLight}') format('truetype');
+  }
 `
 
 const IndexPage = () => (
