@@ -4,15 +4,22 @@ import styled from "@emotion/styled"
 import Layout from "../components/layout"
 
 const Container = styled.div`
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  backround: #d3f4e1;
+  display: flex;
 `
 
 const StyledBackground = styled(Background)`
   max-width: 100%;
-  position: fixed;
+  display: block;
+  margin: auto;
+
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  max-height: 100%;
 `
 
 const IndexPage = () => (
