@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 html {
-  @font-face {
-    font-family: "KeplerStd-BlackScnDisp, Kepler Std";
-  }
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-family: "KeplerStd-BlackScnDisp";
+  @font-face {
+    font-family: "KeplerStd-BlackScnDisp";
+  }
 }
 body {
+  font-family: "KeplerStd-BlackScnDisp";
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #d3f4e1;
   @font-face {
-    font-family: "KeplerStd-BlackScnDisp, Kepler Std";
+    font-family: "KeplerStd-BlackScnDisp";
   }
 }
 article,
