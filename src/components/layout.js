@@ -24,10 +24,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div>
-        <main>{children}</main>
-        <footer>© {new Date().getFullYear()} Articulate Ldn</footer>
-      </div>
+      <main>{children}</main>
     </>
   )
 }
