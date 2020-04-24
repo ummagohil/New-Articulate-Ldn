@@ -3,6 +3,7 @@ module.exports = {
     title: `Articulate London`,
     description: `Coming soon`,
     author: `Umma Gohil`,
+    siteUrl: `https://www.articulateldn.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
