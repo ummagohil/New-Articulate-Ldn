@@ -1,5 +1,5 @@
 import React from "react"
-import Background from "../images/ColourDesign.svg"
+import Background from "../images/ColourDesign2.svg"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import * as fonts from "../fonts"
