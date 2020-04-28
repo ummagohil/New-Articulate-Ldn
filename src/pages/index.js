@@ -3,6 +3,7 @@ import Background from "../images/ColourDesign2.svg"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import * as fonts from "../fonts"
+import { Helmet } from "react-helmet"
 
 const Container = styled.div`
   margin: 0 auto;
@@ -35,11 +36,17 @@ const StyledBackground = styled(Background)`
 `
 
 const IndexPage = () => (
-  <Layout>
-    <Container>
-      <StyledBackground />
-    </Container>
-  </Layout>
+  <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Articulate London</title>
+    </Helmet>
+    <Layout>
+      <Container>
+        <StyledBackground />
+      </Container>
+    </Layout>
+  </>
 )
 
 export default IndexPage
