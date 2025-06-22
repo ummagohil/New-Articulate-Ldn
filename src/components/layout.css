@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "KeplerStd-BlackScnDisp, Kepler Std";
+  font-style: normal;
+  font-weight: normal;
+  src: local("KeplerStd-BlackScnDisp, Kepler Std"),
+    url("/fonts/Kepler/KeplerStdBlack.otf") format("opentype");
+}
+@font-face {
+  font-family: "Poppins-Light, Poppins";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Poppins-Light, Poppins"),
+    url("/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 html {
   -ms-text-size-adjust: 100%;
