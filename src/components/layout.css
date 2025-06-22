@@ -3,14 +3,14 @@
   font-style: normal;
   font-weight: normal;
   src: local("KeplerStd-BlackScnDisp, Kepler Std"),
-    url("../assets/fonts/Kepler/KeplerStdBlack.otf") format("opentype");
+    url("/fonts/Kepler/KeplerStdBlack.otf") format("opentype");
 }
 @font-face {
   font-family: "Poppins-Light, Poppins";
   font-style: normal;
   font-weight: normal;
   src: local("Poppins-Light, Poppins"),
-    url("../assets/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+    url("/fonts/Poppins/Poppins-Light.ttf") format("truetype");
 }
 
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
