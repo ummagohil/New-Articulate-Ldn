@@ -1,6 +1,6 @@
 import React from "react"
 import Head from "next/head"
-import Background from "../../public/images/ColourDesign2.svg"
+import Background from "../assets/images/ColourDesign2.svg"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 
